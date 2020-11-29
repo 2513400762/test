@@ -7,7 +7,7 @@ import (
 )
 
 // DOMAIN 教务处域名
-const DOMAIN = "http://zhjw.scu.edu.cn"
+const DOMAIN = "http://xk.snnu.edu.cn/"
 
 // Login 登录教务处，获取已登录采集器
 func Login(studentID, password string) (*colly.Collector, error) {
